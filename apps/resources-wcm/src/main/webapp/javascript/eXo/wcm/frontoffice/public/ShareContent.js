@@ -5,7 +5,7 @@
   var ShareContent = function() {}
 
   function correctSpacePos(){
-    var dropdown = gj(".uiShareDocuments.resizable .spaceSwitcherContainer #DisplayModesDropDown");
+      var dropdown = gj(".uiShareDocuments.resizable .spaceSwitcherContainer #DisplayModesDropDown");
     var popup = gj(".uiShareDocuments.resizable .spaceChooserPopup");
     gj(popup).addClass("hide");
     gj(dropdown).bind( "click", function() {
@@ -58,14 +58,24 @@
     });
   }
 
+  ShareContent.prototype.doAdd = function(){
+      $('#add').click(function(){
+        if (gj("#who").is(':visible')) {
+          gj("#who").hide();
+        } else {
+          gj("#who").show();
+        }
+      });
+    }
+
   /**
-   * Check space is selected,
+   * Check entry is selected,
    * if selected then enable share button otherwise not enable
-   * @param space
+   * @param entry
    */
-  ShareContent.prototype.checkSelectedSpace = function(space){
+  ShareContent.prototype.checkSelectedEntry = function(entry){
     correctSpacePos();
-    if("[]" === space) {
+    if("[]" === entry) {
       gj(".PopupContent .uiActionBorder .btn-primary").attr("disabled","disabled");
     }else{
       gj(".PopupContent .uiActionBorder .btn-primary").removeAttr("disabled")
