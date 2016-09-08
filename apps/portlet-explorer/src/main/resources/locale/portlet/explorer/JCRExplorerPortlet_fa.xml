@@ -250,7 +250,7 @@
       <UIActivePublication>ثبت در چرخه انتشار</UIActivePublication>
       <UITaggingForm>برچسب سند</UITaggingForm>
       <UIThumbnailForm>اضافه کردن تصویر بند انگشتی</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>تنظیمات</UIAllItemsPreferenceForm>
+      <UIAllItemsPreferenceForm>Preferences</UIAllItemsPreferenceForm>
       <UISelectRestorePath>انتخاب مسیر بازیابی</UISelectRestorePath>
       <UISEOForm>مدیریت جستجوگرها</UISEOForm>
       <UISEOToolbarForm>مدیریت جستجوگرها</UISEOToolbarForm>
@@ -1346,6 +1346,8 @@
   -->
   <UIVersionInfo>
     <tooltip>
+      <version>Version</version>
+      <baseVersion>Base Version</baseVersion>
       <addLabel>افزودن برچسب</addLabel>
       <removeLable>حذف برچسب</removeLable>
       <restoreVersion>بازیابی نسخه</restoreVersion>
