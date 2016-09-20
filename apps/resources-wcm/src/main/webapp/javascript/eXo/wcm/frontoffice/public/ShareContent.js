@@ -5,7 +5,7 @@
   var ShareContent = function() {}
 
   function correctSpacePos(){
-      var dropdown = gj(".uiShareDocuments.resizable .spaceSwitcherContainer #DisplayModesDropDown");
+    var dropdown = gj(".uiShareDocuments.resizable .spaceSwitcherContainer #DisplayModesDropDown");
     var popup = gj(".uiShareDocuments.resizable .spaceChooserPopup");
     gj(popup).addClass("hide");
     gj(dropdown).bind( "click", function() {
@@ -57,16 +57,6 @@
       gj("#shareActionBtn").trigger("click");
     });
   }
-
-  ShareContent.prototype.doAdd = function(){
-      $('#add').click(function(){
-        if (gj("#who").is(':visible')) {
-          gj("#who").hide();
-        } else {
-          gj("#who").show();
-        }
-      });
-    }
 
   /**
    * Check entry is selected,
