@@ -2225,10 +2225,10 @@ var SecondaryToolbar = {
     this.close();
   },
 
-  openFileClick: function secondaryToolbarOpenFileClick(evt) {
+  /*openFileClick: function secondaryToolbarOpenFileClick(evt) {
     document.getElementById('fileInput').click();
     this.close();
-  },
+  },*/
 
   printClick: function secondaryToolbarPrintClick(evt) {
     var w = window.open("/eXoWCMResources/pdf.js/print.html?file=" + PDFJS.pdfFile +
@@ -7191,18 +7191,16 @@ function webViewerInitialized() {
   var file = 'file' in params ? params.file : PDFJS.pdfFile;
   validateFileURL(file);
 
-  var fileInput = document.createElement('input');
+  /*var fileInput = document.createElement('input');
   fileInput.id = 'fileInput';
   fileInput.className = 'fileInput';
   fileInput.setAttribute('type', 'file');
   fileInput.oncontextmenu = noContextMenuHandler;
-  document.body.appendChild(fileInput);
+  document.body.appendChild(fileInput);*/
 
   if (!window.File || !window.FileReader || !window.FileList || !window.Blob) {
     document.getElementById('openFile').setAttribute('hidden', 'true');
     document.getElementById('secondaryOpenFile').setAttribute('hidden', 'true');
-  } else {
-    document.getElementById('fileInput').value = null;
   }
 
   var locale = PDFJS.locale || navigator.language;
