@@ -58,7 +58,7 @@ public class NavigationUtils {
 
   public static final Scope ECMS_NAVIGATION_SCOPE = Scope.CHILDREN;
 
-  private static ThreadLocal<Map<String, String>> gotNavigationKeeper = new ThreadLocal<Map<String, String>>();
+  private static final String CONVERSATIONSTATE_USER_NAVIGATION_TREE = "userNavigationTree";
 
   private static Constructor<UserNavigation> userNavigationCtor = null;
 
@@ -82,7 +82,12 @@ public class NavigationUtils {
   }
   
   public static boolean gotNavigation(String portal, String user, String scope) {
-    Map<String, String> navigations = gotNavigationKeeper.get();
+    ConversationState state = ConversationState.getCurrent();
+    Map<String, String> navigations=null;
+    if (state != null) {
+      navigations = (Map<String, String>) state.getAttribute(CONVERSATIONSTATE_USER_NAVIGATION_TREE);
+    }
+
     if (navigations == null) return false;
     String navigation = navigations.get(portal + " " + user + " " + scope);
     return (navigation != null);
@@ -134,10 +139,14 @@ public class NavigationUtils {
   public static void removeNavigationAsJson (String portalName, String username, String scope) throws Exception
   {
     String key = portalName + " " + username + " " + scope;
-    Map<String, String> navigations = gotNavigationKeeper.get();
+    ConversationState state = ConversationState.getCurrent();
+    Map<String, String> navigations = null;
+    if (state != null) {
+      navigations = (Map<String, String>) state.getAttribute(CONVERSATIONSTATE_USER_NAVIGATION_TREE);
+    }
     if (navigations != null) {
       navigations.remove(key);
-      gotNavigationKeeper.set(navigations);
+      state.setAttribute(CONVERSATIONSTATE_USER_NAVIGATION_TREE,navigations);
     }
   }
 
@@ -148,7 +157,11 @@ public class NavigationUtils {
   public static String getNavigationAsJSON(String portalName, String username, Scope scope, String navigationScope) throws Exception {
 
     String key = portalName + " " + username + " " + navigationScope;
-    Map<String, String> navigations = gotNavigationKeeper.get();
+    ConversationState state = ConversationState.getCurrent();
+    Map<String, String> navigations = null;
+    if(state!=null){
+      navigations = (Map<String, String>) state.getAttribute(CONVERSATIONSTATE_USER_NAVIGATION_TREE);
+    }
     if (navigations == null) {
       navigations = new Hashtable<String, String>();
     } else {
@@ -175,7 +188,7 @@ public class NavigationUtils {
 
     String ret = createJsonTree(navigation, root);
     navigations.put(key, ret);
-    gotNavigationKeeper.set(navigations);
+    state.setAttribute(CONVERSATIONSTATE_USER_NAVIGATION_TREE,navigations);
     return ret;
   }
 
