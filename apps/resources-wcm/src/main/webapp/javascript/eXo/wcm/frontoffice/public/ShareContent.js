@@ -24,23 +24,10 @@
       gj(".uiShareDocuments.resizable .spaceChooserPopup .uiIconClose").trigger("click");
     })
     correctSpacePos();
-    var element = gj("#UIShareDocument").closest("#UIPopupWindow")[0];
-    if (element == "undefined" || element.style.display == 'none') {
-      try {
-        if (OverlayManager != null) {
-          OverlayManager.active = null;
-        }
-      } catch(err) {
-      }
-    } else if (element.style.display == 'block') {
-      try {
-        if (OverlayManager != null) {
-          OverlayManager.active = true;
-        }
-      } catch (err) {
-      }
-    }
-
+    //disable shortcuts for pdf.js when a document is opened
+    gj("#UIShareDocument").on("keydown", function (evt) {
+      evt.stopPropagation();
+    });
     gj(".uiShareDocuments.resizable #textAreaInput").exoMentions({
       onDataRequest : function(mode, query, callback) {
         var url = window.location.protocol + '//' + window.location.host + '/' + eXo.env.portal.rest + '/social/people/getprofile/data.json?search=' + query;
@@ -64,24 +51,6 @@
     });
 
     gj('#DisplaytextAreaInput').trigger('focus');
-  }
-
-  ShareContent.prototype.cancelAction = function(){
-    try {
-      if (OverlayManager != null) {
-        OverlayManager.active = null;
-      }
-    } catch(err) {
-    }
-  }
-
-  ShareContent.prototype.beginAction = function(){
-    try {
-      if (OverlayManager != null) {
-        OverlayManager.active = true;
-      }
-    } catch (err) {
-    }
   }
 
   ShareContent.prototype.doShare = function(){
