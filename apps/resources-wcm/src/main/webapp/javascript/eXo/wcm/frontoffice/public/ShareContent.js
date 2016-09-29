@@ -24,6 +24,22 @@
       gj(".uiShareDocuments.resizable .spaceChooserPopup .uiIconClose").trigger("click");
     })
     correctSpacePos();
+    var element = gj("#UIShareDocument").closest("#UIPopupWindow")[0];
+    if (element == "undefined" || element.style.display == 'none') {
+      try {
+        if (OverlayManager != null) {
+          OverlayManager.active = null;
+        }
+      } catch(err) {
+      }
+    } else if (element.style.display == 'block') {
+      try {
+        if (OverlayManager != null) {
+          OverlayManager.active = true;
+        }
+      } catch (err) {
+      }
+    }
 
     gj(".uiShareDocuments.resizable #textAreaInput").exoMentions({
       onDataRequest : function(mode, query, callback) {
@@ -50,6 +66,24 @@
     gj('#DisplaytextAreaInput').trigger('focus');
   }
 
+  ShareContent.prototype.cancelAction = function(){
+    try {
+      if (OverlayManager != null) {
+        OverlayManager.active = null;
+      }
+    } catch(err) {
+    }
+  }
+
+  ShareContent.prototype.beginAction = function(){
+    try {
+      if (OverlayManager != null) {
+        OverlayManager.active = true;
+      }
+    } catch (err) {
+    }
+  }
+
   ShareContent.prototype.doShare = function(){
     gj(".uiShareDocuments.resizable #textAreaInput").exoMentions('val', function(value) {
       value = value.replace(/<br\/?>/gi, '\n').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>');
@@ -70,6 +104,10 @@
     }else{
       gj(".PopupContent .uiActionBorder .btn-primary").removeAttr("disabled")
     }
+  }
+
+  ShareContent.prototype.checkRemovedEntry = function(entry){
+    gj(".PopupContent .uiActionBorder .btn-primary").removeAttr("disabled");
   }
 
   eXo.ecm.ShareContent = new ShareContent();
