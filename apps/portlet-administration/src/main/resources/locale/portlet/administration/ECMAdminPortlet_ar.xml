@@ -191,7 +191,7 @@
     <title>تسجيل إسم الفضاء جديد</title>
     <label>
       <namespace>بادئة إسم الفضاء</namespace>
-      <uri>URI</uri>
+      <uri>عنوان الـ URI</uri>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -988,12 +988,12 @@
       <publicationPublish>نشر</publicationPublish>
 <contentNavigation>تصفّح المحتوى</contentNavigation>
 <addSymLink>إضافة وصلة رمزيّة</addSymLink>
-      <checkIn>Check In</checkIn>
-      <checkOut>Check Out</checkOut>
-      <shareDocuments>شارك</shareDocuments>
-      <openDocument>Remote Edit</openDocument>
-      <editProperty>Edit Document Properties</editProperty>
-      <uploadNewVersion>Upload a new version</uploadNewVersion>
+      <checkIn>مراجعة</checkIn>
+      <checkOut>إنهاء المراجعة</checkOut>
+      <shareDocuments>Share</shareDocuments>
+      <openDocument>تغيير عن بعد</openDocument>
+      <editProperty>تغيير خصائص الملف</editProperty>
+      <uploadNewVersion>تحميل نسخة جديدة</uploadNewVersion>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -1023,7 +1023,7 @@
   </UIViewFormTabPane>
   <PopupViewPermission>
     <title>
-      <UIPermissionSelector>منتق الصلاحية</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </PopupViewPermission>
 
@@ -1074,7 +1074,7 @@
   -->
   <UITemplateForm>
     <title>
-      <AddPermission>إضافة صلاحية</AddPermission>
+      <AddPermission>Add Permission</AddPermission>
     </title>
     <action>
       <Save>#{word.save}</Save>
@@ -1383,7 +1383,7 @@
       <set_property>مجموعة حق الملكية</set_property>
       <remove>إزالة الامتياز</remove>
     </label>
-    <title>Add a permission to this node</title>
+    <title>إضافة صلاحية إلى هذه العقدة</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>حفظ</Save>
@@ -1405,7 +1405,7 @@
   
   <PopupTaxonomyTreePermission>
     <title>
-      <UIPermissionSelector>منتق الصلاحية</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
    </PopupTaxonomyTreePermission>
    
@@ -1486,7 +1486,7 @@
       <add_node>تغيير</add_node>
       <remove>حذف</remove>
     </label>
-    <title>Add permission to this node</title>
+    <title>اضافة صلاحية لهذه العقدة</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
@@ -1737,7 +1737,7 @@
   -->
   <AddNewTemplatePermission>
     <title>
-      <UIPermissionSelector>منتق الصلاحية</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </AddNewTemplatePermission>
   <TemplatePermission>
@@ -1778,12 +1778,12 @@
   </DialogForm>
   <DialogFormTemplatePermission>
     <title>
-      <UIPermissionSelector>منتق الصلاحية</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </DialogFormTemplatePermission>
   <ViewFormTemplatePermission>
     <title>
-      <UIPermissionSelector>منتق الصلاحية</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </ViewFormTemplatePermission>
   <TemplateContainerPopup>
@@ -1974,7 +1974,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>منتق الصلاحية</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Permission Selector</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -2032,7 +2032,7 @@
   -->
   <ECMPhoneFormatValidator>
     <msg>
-      <Invalid>The field '{0}' contains an invalid Phone number. Please enter another value.</Invalid>
+      <Invalid>يحتوي الحقل '{0}' على رقم هاتف غير صحيح. الرجاء إدخال قيمة أخرى.</Invalid>
     </msg>
   </ECMPhoneFormatValidator>
   <!--
@@ -2328,7 +2328,7 @@
   <action>اجراء</action>
   </header>
   <tooltip>
-<UnLock>الغاء التأمين</UnLock>
+<UnLock>الغاء التّأمين</UnLock>
   </tooltip>
   <msg>
   <access-denied-exception>ليس لديك صلاحية للوصول إلى هذه العقدة عن طريق المسار {0} أو ربّما تمّ حذف هذه العقدة.</access-denied-exception>
