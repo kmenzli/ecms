@@ -250,7 +250,7 @@
       <UIActivePublication>Įregistruoti į paskelbimo gyvavimo ciklą</UIActivePublication>
       <UITaggingForm>Žymėti dokumentą</UITaggingForm>
       <UIThumbnailForm>Pridėti miniatiūrą</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>Nuostatos</UIAllItemsPreferenceForm>
+      <UIAllItemsPreferenceForm>Preferences</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Pasirinkite atkūrimo kelią</UISelectRestorePath>
       <UISEOForm>Valdyti SEO</UISEOForm>
       <UISEOToolbarForm>Valdyti SEO</UISEOToolbarForm>
@@ -597,7 +597,7 @@
       <RestoreFromTrash>Atkurti iš šiukšliadėžės</RestoreFromTrash>
       <EmptyTrash>Išvalyti šiukšliadėžę</EmptyTrash>
       <WebDavView>Atidaryti su MS Office</WebDavView>
-      <Download>Atsisiųsti</Download>
+      <Download>Download</Download>
       <OpenDocument>Remote Edit</OpenDocument>
       <EditProperty>Edit Document Properties</EditProperty>
       <UploadNewVersion>Upload a new version</UploadNewVersion>
@@ -1330,7 +1330,7 @@
   -->
   <PopupUserSelector>
     <title>
-      <UIUserContainer>Teisės pasirinkimas</UIUserContainer>
+      <UIUserContainer>Permission Selector</UIUserContainer>
     </title>
   </PopupUserSelector>
   <UIPopupTaxonomy>
@@ -1346,6 +1346,8 @@
   -->
   <UIVersionInfo>
     <tooltip>
+      <version>Version</version>
+      <baseVersion>Base Version</baseVersion>
       <addLabel>Pridėti etiketę</addLabel>
       <removeLable>Pašalinti etiketę</removeLable>
       <restoreVersion>Atkurti versiją</restoreVersion>
@@ -2436,7 +2438,7 @@
       <Back>Atgal į pervadinimą</Back>
       <Keepfile>Palikti abu failus</Keepfile>
 <ReadOnly>Open Read-only</ReadOnly>
-<Cancel>Atšaukti</Cancel>
+<Cancel>Cancel</Cancel>
       <KeepBoth>Keep Both</KeepBoth>
       <CreateNewVersion>Create a new version</CreateNewVersion>
     </label>
