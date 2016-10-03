@@ -10,7 +10,7 @@
       <label>
         <Templates>Vorlagen</Templates>
         <Explorer>Explorer</Explorer>
-        <Repository>Repository</Repository>
+        <Repository>Projektarchiv</Repository>
         <Advanced>Erweitert</Advanced>
       </label>
     </tab>    
@@ -27,7 +27,7 @@
       <UIActionManager>Aktionen</UIActionManager>
       <UIScriptManager>Skripte</UIScriptManager>
       <UIUnLockManager>Sperren</UIUnLockManager>
-      <UIFolksonomyManager>Tags</UIFolksonomyManager>      
+      <UIFolksonomyManager>Schlagwörter</UIFolksonomyManager>      
     </label>
     <msg>
       <access-denied>Zugriff verweigert. Sie haben keine Berechtigung, diesen Vorgang durchzuführen.</access-denied>
@@ -295,7 +295,7 @@
       <metadataName>Metadatenname:</metadataName>
       <viewPermission>Berechtigung:</viewPermission>
       <permission>UIMetadataForm</permission>
-      <metadataLabel>Label:</metadataLabel>
+      <metadataLabel>Bezeichnung:</metadataLabel>
     </label>
     <tab>
       <label>
@@ -399,7 +399,7 @@
       <permissions>Berechtigungen:</permissions>
       <showHiddenNode>Ausgeblendete Knoten anzeigen:</showHiddenNode>
       <allowCreateFolders>Ordnererstellung erlauben:</allowCreateFolders>
-      <Admin>Admin:</Admin>
+      <Admin>Administrator:</Admin>
       <Categories>Kategorien:</Categories>
       <Icons>Piktogramme:</Icons>
       <List>Liste:</List>
@@ -990,10 +990,10 @@
 <addSymLink>Symbolische Verknüpfung hinzufügen</addSymLink>
       <checkIn>Check In</checkIn>
       <checkOut>Check Out</checkOut>
-      <shareDocuments>Teilen</shareDocuments>
-      <openDocument>Remote Edit</openDocument>
-      <editProperty>Edit Document Properties</editProperty>
-      <uploadNewVersion>Upload a new version</uploadNewVersion>
+      <shareDocuments>Share</shareDocuments>
+      <openDocument>Entferntes Bearbeiten</openDocument>
+      <editProperty>Dokumenteigenschaften bearbeiten</editProperty>
+      <uploadNewVersion>Eine neue Version hochladen</uploadNewVersion>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -1023,7 +1023,7 @@
   </UIViewFormTabPane>
   <PopupViewPermission>
     <title>
-      <UIPermissionSelector>Berechtigungsauswahl</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </PopupViewPermission>
 
@@ -1074,7 +1074,7 @@
   -->
   <UITemplateForm>
     <title>
-      <AddPermission>Berechtigung hinzufügen</AddPermission>
+      <AddPermission>Add Permission</AddPermission>
     </title>
     <action>
       <Save>#{word.save}</Save>
@@ -1099,7 +1099,7 @@
     </tab>
     <label>
       <name>Name:</name>
-      <label>Label:</label>
+      <label>Bezeichnung:</label>
       <isDocumentTemplate>ist Dokumentvorlage:</isDocumentTemplate>
       <dialog>Dialoginhalt</dialog>
       <view>Inhalt anzeigen</view>
@@ -1383,7 +1383,7 @@
       <set_property>Eigenschaftsrecht festlegen</set_property>
       <remove>Recht Entfernen</remove>
     </label>
-    <title>Add a permission to this node</title>
+    <title>Eine Berechtigung auf diesen Knoten hinzufügen</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>Speichern</Save>
@@ -1405,7 +1405,7 @@
   
   <PopupTaxonomyTreePermission>
     <title>
-      <UIPermissionSelector>Berechtigungsauswahl</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
    </PopupTaxonomyTreePermission>
    
@@ -1486,7 +1486,7 @@
       <add_node>Ändern</add_node>
       <remove>Entfernen</remove>
     </label>
-    <title>Add permission to this node</title>
+    <title>Berechtigung für diesen Knoten hinzufügen</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
@@ -1737,7 +1737,7 @@
   -->
   <AddNewTemplatePermission>
     <title>
-      <UIPermissionSelector>Berechtigungsauswahl</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </AddNewTemplatePermission>
   <TemplatePermission>
@@ -1778,12 +1778,12 @@
   </DialogForm>
   <DialogFormTemplatePermission>
     <title>
-      <UIPermissionSelector>Berechtigungsauswahl</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </DialogFormTemplatePermission>
   <ViewFormTemplatePermission>
     <title>
-      <UIPermissionSelector>Berechtigungsauswahl</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </ViewFormTemplatePermission>
   <TemplateContainerPopup>
@@ -1812,7 +1812,7 @@
   <UITemplateEditForm>
     <label>
       <name>Name:</name>
-      <label>Label:</label>
+      <label>Bezeichnung:</label>
       <isDocumentTemplate>Ist Dokumentvorlage</isDocumentTemplate>
     </label>
     <action>
@@ -1974,7 +1974,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>Berechtigungsauswahl</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Permission Selector</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -2032,7 +2032,7 @@
   -->
   <ECMPhoneFormatValidator>
     <msg>
-      <Invalid>The field '{0}' contains an invalid Phone number. Please enter another value.</Invalid>
+      <Invalid>Das Feld '{0}' enthält eine ungültige Telefonnummer. Bitte geben Sie einen anderen Wert ein.</Invalid>
     </msg>
   </ECMPhoneFormatValidator>
   <!--
@@ -2457,7 +2457,7 @@
 
   <UITabPane>
     <title>
-      <UITagManager>Tag Manager</UITagManager>
+      <UITagManager>Tag-Manager</UITagManager>
       <UITagPermissionManager>Berechtigungen</UITagPermissionManager>
     </title>
   </UITabPane>
