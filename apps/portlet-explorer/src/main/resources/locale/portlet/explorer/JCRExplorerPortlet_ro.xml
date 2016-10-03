@@ -250,7 +250,7 @@
       <UIActivePublication>Înscrieți-vă la procesul de publicare</UIActivePublication>
       <UITaggingForm>Etichetați Document</UITaggingForm>
       <UIThumbnailForm>Adaugă imagine miniatură</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>Preferinţe</UIAllItemsPreferenceForm>
+      <UIAllItemsPreferenceForm>Preferences</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Selectaţi calea pentru restabilire</UISelectRestorePath>
       <UISEOForm>Gestionați SEO</UISEOForm>
       <UISEOToolbarForm>Gestionați SEO</UISEOToolbarForm>
@@ -597,7 +597,7 @@
       <RestoreFromTrash>Restaurează de la gunoi</RestoreFromTrash>
       <EmptyTrash>Golește gunoiul</EmptyTrash>
       <WebDavView>Descărcaţi şi permiteți adăugarea</WebDavView>
-      <Download>Descarcă</Download>
+      <Download>Download</Download>
       <OpenDocument>Remote Edit</OpenDocument>
       <EditProperty>Edit Document Properties</EditProperty>
       <UploadNewVersion>Upload a new version</UploadNewVersion>
@@ -1330,7 +1330,7 @@
   -->
   <PopupUserSelector>
     <title>
-      <UIUserContainer>Selector de drepturi</UIUserContainer>
+      <UIUserContainer>Permission Selector</UIUserContainer>
     </title>
   </PopupUserSelector>
   <UIPopupTaxonomy>
@@ -1346,6 +1346,8 @@
   -->
   <UIVersionInfo>
     <tooltip>
+      <version>Version</version>
+      <baseVersion>Base Version</baseVersion>
       <addLabel>Adaugă eticheta</addLabel>
       <removeLable>Eliminaţi eticheta</removeLable>
       <restoreVersion>Restabilire versiune</restoreVersion>
@@ -2436,7 +2438,7 @@
       <Back>Înapoi la Redenumire</Back>
       <Keepfile>Păstrează ambele fişiere</Keepfile>
 <ReadOnly>Open Read-only</ReadOnly>
-<Cancel>Renunță</Cancel>
+<Cancel>Cancel</Cancel>
       <KeepBoth>Keep Both</KeepBoth>
       <CreateNewVersion>Create a new version</CreateNewVersion>
     </label>
