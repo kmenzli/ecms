@@ -250,7 +250,7 @@
       <UIActivePublication>Εγγραφείτε στην παρακολούθηση του κύκλου ζωής της δημοσίευσης</UIActivePublication>
       <UITaggingForm>Ετικέτες εγγράφου</UITaggingForm>
       <UIThumbnailForm>Προσθέστε εικόνα μικρογραφίας</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>Προτιμήσεις</UIAllItemsPreferenceForm>
+      <UIAllItemsPreferenceForm>Preferences</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Επιλέξτε διαδρομή για την επαναφορά</UISelectRestorePath>
       <UISEOForm>Διαχείριση βελτιστοποιήσεων μηχανών αναζήτησης (SEO)</UISEOForm>
       <UISEOToolbarForm>Διαχείριση βελτιστοποιήσεων μηχανών αναζήτησης (SEO)</UISEOToolbarForm>
@@ -597,7 +597,7 @@
       <RestoreFromTrash>Επαναφορά από κάδο</RestoreFromTrash>
       <EmptyTrash>Άδειασμα κάδου διαγραμμένων</EmptyTrash>
       <WebDavView>Άνοιγμα στο Office</WebDavView>
-      <Download>Μεταφόρτωση</Download>
+      <Download>Download</Download>
       <OpenDocument>Απομακρυσμένη επεξεργασία</OpenDocument>
       <EditProperty>Edit Document Properties</EditProperty>
       <UploadNewVersion>Upload a new version</UploadNewVersion>
@@ -1330,7 +1330,7 @@
   -->
   <PopupUserSelector>
     <title>
-      <UIUserContainer>Επιλογέας Δικαιωμάτων</UIUserContainer>
+      <UIUserContainer>Permission Selector</UIUserContainer>
     </title>
   </PopupUserSelector>
   <UIPopupTaxonomy>
@@ -1346,6 +1346,8 @@
   -->
   <UIVersionInfo>
     <tooltip>
+      <version>Version</version>
+      <baseVersion>Base Version</baseVersion>
       <addLabel>Προσθήκη ετικέτας</addLabel>
       <removeLable>Αφαίρεση ετικέτας</removeLable>
       <restoreVersion>Επαναφορά Έκδοσης</restoreVersion>
@@ -2436,7 +2438,7 @@
       <Back>Επιστροφή στη Μετονομασία</Back>
       <Keepfile>Κρατήστε τα δύο αρχεία</Keepfile>
 <ReadOnly>Άνοιγμα μόνο για ανάγνωση</ReadOnly>
-<Cancel>Ακύρωση</Cancel>
+<Cancel>Cancel</Cancel>
       <KeepBoth>Keep Both</KeepBoth>
       <CreateNewVersion>Create a new version</CreateNewVersion>
     </label>
