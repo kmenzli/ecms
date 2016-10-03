@@ -211,7 +211,7 @@
   <UINamespaceList>
     <header>
       <prefix>Önek</prefix>
-      <uri>Namespace URI</uri>
+      <uri>Ad boşluğu URI</uri>
       <action>Eylem</action>
     </header>
     <action>
@@ -399,7 +399,7 @@
       <permissions>İzinler:</permissions>
       <showHiddenNode>Gizli düğümleri göster:</showHiddenNode>
       <allowCreateFolders>Klasör Oluşturulmasına Olanak Sağla:</allowCreateFolders>
-      <Admin>Admin:</Admin>
+      <Admin>Yönetici:</Admin>
       <Categories>Kategoriler:</Categories>
       <Icons>Simgeler:</Icons>
       <List>Liste:</List>
@@ -708,11 +708,11 @@
     <label>
       <both>Both</both>
       <folderOnly>Folder</folderOnly>
-      <unstructuredFolder>Unstructured Folder</unstructuredFolder>
+      <unstructuredFolder>Yapılanmamış Klasör</unstructuredFolder>
     </label>
     <title>
       <AddPermission>İzin Ekle</AddPermission>
-      <RemovePermission>Remove Permission</RemovePermission>
+      <RemovePermission>İzni Kaldır</RemovePermission>
       <AddIcon>Simge Ekle</AddIcon>
       <AddPath>Yol Ekle</AddPath>
     </title>
@@ -755,7 +755,7 @@
     <label>
       <actionType>Eylem Türünü Genişlet:</actionType>
       <name>Adı:</name>
-      <isMove>is Action Move:</isMove>
+      <isMove>Action Move:</isMove>
       <variables>Değişkenler:</variables>
       <exo_businessProcessAction>İş Süreçleri:</exo_businessProcessAction>
       <exo_scriptAction>Groovy Scriptler:</exo_scriptAction>
@@ -988,12 +988,12 @@
       <publicationPublish>Yayımla</publicationPublish>
 <contentNavigation>İçerik Gezinti</contentNavigation>
 <addSymLink>Sembolik link ekle</addSymLink>
-      <checkIn>Check In</checkIn>
-      <checkOut>Check Out</checkOut>
-      <shareDocuments>Paylaş</shareDocuments>
-      <openDocument>Remote Edit</openDocument>
-      <editProperty>Edit Document Properties</editProperty>
-      <uploadNewVersion>Upload a new version</uploadNewVersion>
+      <checkIn>Kaydet</checkIn>
+      <checkOut>Kaydı Kaldır</checkOut>
+      <shareDocuments>Share</shareDocuments>
+      <openDocument>Uzaktan Düzenle</openDocument>
+      <editProperty>Dosya Özelliklerini Düzenle</editProperty>
+      <uploadNewVersion>Yeni bir sürümünü yükle</uploadNewVersion>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -1023,7 +1023,7 @@
   </UIViewFormTabPane>
   <PopupViewPermission>
     <title>
-      <UIPermissionSelector>Yetki Seçici</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </PopupViewPermission>
 
@@ -1074,7 +1074,7 @@
   -->
   <UITemplateForm>
     <title>
-      <AddPermission>İzin Ekle</AddPermission>
+      <AddPermission>Add Permission</AddPermission>
     </title>
     <action>
       <Save>#{word.save}</Save>
@@ -1383,7 +1383,7 @@
       <set_property>Özellik Ayarlama Yetkisi</set_property>
       <remove>Çıkarma Yetkisi</remove>
     </label>
-    <title>Add a permission to this node</title>
+    <title>Bu ağa bir izin ekle</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>Kaydet</Save>
@@ -1405,7 +1405,7 @@
   
   <PopupTaxonomyTreePermission>
     <title>
-      <UIPermissionSelector>Yetki Seçici</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
    </PopupTaxonomyTreePermission>
    
@@ -1486,7 +1486,7 @@
       <add_node>Değiştir</add_node>
       <remove>Kaldır</remove>
     </label>
-    <title>Add permission to this node</title>
+    <title>Bu ağa bir izin ekle</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
@@ -1737,7 +1737,7 @@
   -->
   <AddNewTemplatePermission>
     <title>
-      <UIPermissionSelector>Yetki Seçici</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </AddNewTemplatePermission>
   <TemplatePermission>
@@ -1778,12 +1778,12 @@
   </DialogForm>
   <DialogFormTemplatePermission>
     <title>
-      <UIPermissionSelector>Yetki Seçici</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </DialogFormTemplatePermission>
   <ViewFormTemplatePermission>
     <title>
-      <UIPermissionSelector>Yetki Seçici</UIPermissionSelector>
+      <UIPermissionSelector>Permission Selector</UIPermissionSelector>
     </title>
   </ViewFormTemplatePermission>
   <TemplateContainerPopup>
@@ -1974,7 +1974,7 @@
   </EditQueryForm>
 <PermissionPopup>
   <title>
-    <UIGroupMemberSelector>Yetki Seçici</UIGroupMemberSelector>
+    <UIGroupMemberSelector>Permission Selector</UIGroupMemberSelector>
   </title>
 </PermissionPopup>
   <!--
@@ -2032,7 +2032,7 @@
   -->
   <ECMPhoneFormatValidator>
     <msg>
-      <Invalid>The field '{0}' contains an invalid Phone number. Please enter another value.</Invalid>
+      <Invalid>'{0}' alanı geçersiz bir Telefon Numarası içermektedir. Lütfen doğru şekilde giriniz.</Invalid>
     </msg>
   </ECMPhoneFormatValidator>
   <!--
