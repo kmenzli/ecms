@@ -45,7 +45,7 @@
         <pdf-max-size>La vista previa no está disponible para contenidos de más de {0} MB.</pdf-max-size>
         <pdf-max-page>La vista previa no está disponible para contenidos de más de {0} páginas.</pdf-max-page>
         <using-webDAV>o abrir en MS Office</using-webDAV>
-        <open-on-desktop>Abrir en el Escritorio</open-on-desktop>
+        <open-on-desktop>Open on Desktop</open-on-desktop>
         <file-size-too-big>El contenido de este archivo es demasiado grande. Debe descargar y abrir en el cliente.</file-size-too-big>
         <webDAV>Vista WebDAV</webDAV>
         <download>Descargar</download>
@@ -141,7 +141,7 @@
   <ElementSet>
     <view>
       <label>
-        <not-avaliable>N/D</not-avaliable>
+        <not-avaliable>N/A</not-avaliable>
         <core-elements>Elementos básicos</core-elements>
         <title>Título</title>
         <creator>Creador</creator>

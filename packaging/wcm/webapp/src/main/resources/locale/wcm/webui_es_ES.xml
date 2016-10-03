@@ -109,7 +109,7 @@
       <FilterBy>Filtrar por</FilterBy>
       <WebContent>Contenido Web</WebContent>
       <DMSDocument>Documento</DMSDocument>
-      <Media>Multimedia</Media>
+      <Media>Media</Media>
     </selectBoxValues>
   </UIContentBrowsePanelMulti>
 
