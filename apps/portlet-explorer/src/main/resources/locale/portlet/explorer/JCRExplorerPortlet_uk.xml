@@ -250,11 +250,11 @@
       <UIActivePublication>Внести до життєвого циклу публікації</UIActivePublication>
       <UITaggingForm>Відмітити документ</UITaggingForm>
       <UIThumbnailForm>Додати зображення ескізу</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>Налаштування</UIAllItemsPreferenceForm>
+      <UIAllItemsPreferenceForm>Preferences</UIAllItemsPreferenceForm>
       <UISelectRestorePath>Виділіть шлях відновлення</UISelectRestorePath>
       <UISEOForm>Керувати SEO</UISEOForm>
       <UISEOToolbarForm>Керувати SEO</UISEOToolbarForm>
-      <UIReadOnlyFileConfirmMessage>Відкрити документ</UIReadOnlyFileConfirmMessage>
+      <UIReadOnlyFileConfirmMessage>Open Document</UIReadOnlyFileConfirmMessage>
       <UIDocumentAutoVersionForm>Копіювати документ</UIDocumentAutoVersionForm>
     </title>
     <header>
@@ -597,7 +597,7 @@
       <RestoreFromTrash>Відновлення з кошика</RestoreFromTrash>
       <EmptyTrash>Очистити Кошик</EmptyTrash>
       <WebDavView>Відкрити в MS Office</WebDavView>
-      <Download>Завантажити</Download>
+      <Download>Download</Download>
       <OpenDocument>Віддалене редагування</OpenDocument>
       <EditProperty>Редагувати властивості документа</EditProperty>
       <UploadNewVersion>Завантажити нову версію</UploadNewVersion>
@@ -1330,7 +1330,7 @@
   -->
   <PopupUserSelector>
     <title>
-      <UIUserContainer>Селектор прав доступу</UIUserContainer>
+      <UIUserContainer>Permission Selector</UIUserContainer>
     </title>
   </PopupUserSelector>
   <UIPopupTaxonomy>
@@ -1346,6 +1346,8 @@
   -->
   <UIVersionInfo>
     <tooltip>
+      <version>Version</version>
+      <baseVersion>Base Version</baseVersion>
       <addLabel>Додати мітку</addLabel>
       <removeLable>Видалити мітку</removeLable>
       <restoreVersion>Відновити версію</restoreVersion>
@@ -2435,10 +2437,10 @@
       <ReplaceData>Замінити дані</ReplaceData>
       <Back>Повернутися до Перейменувати</Back>
       <Keepfile>Зберегти обидва файли</Keepfile>
-<ReadOnly>Відкрити лише для читання</ReadOnly>
-<Cancel>Скасувати</Cancel>
+<ReadOnly>Open Read-only</ReadOnly>
+<Cancel>Cancel</Cancel>
       <KeepBoth>Залишити обидва</KeepBoth>
-      <CreateNewVersion>Створити нову версію</CreateNewVersion>
+      <CreateNewVersion>Create a new version</CreateNewVersion>
     </label>
   </UIConfirmMessage>
 
