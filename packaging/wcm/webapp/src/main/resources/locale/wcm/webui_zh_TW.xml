@@ -42,7 +42,7 @@
   <Views>
     <label>
       <wcm-view>Web</wcm-view>
-      <admin-view>管理員</admin-view>
+      <admin-view>Admin</admin-view>
       <icon-view>圖示</icon-view>
       <thumbails-view>縮略圖</thumbails-view>
       <list-view>清單</list-view>
