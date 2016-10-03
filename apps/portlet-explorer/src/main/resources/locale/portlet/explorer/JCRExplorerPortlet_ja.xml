@@ -41,7 +41,7 @@
     </label>
     <button>
       <label>
-        <confirm>Ok</confirm>
+        <confirm>OK</confirm>
       </label>
     </button>
     <msg>
@@ -250,7 +250,7 @@
       <UIActivePublication>公開ライフサイクルのための登録</UIActivePublication>
       <UITaggingForm>ドキュメントにタグ付け</UITaggingForm>
       <UIThumbnailForm>サムネイルイメージの追加</UIThumbnailForm>
-      <UIAllItemsPreferenceForm>設定</UIAllItemsPreferenceForm>
+      <UIAllItemsPreferenceForm>Preferences</UIAllItemsPreferenceForm>
       <UISelectRestorePath>リストアパスの選択</UISelectRestorePath>
       <UISEOForm>SEO を管理</UISEOForm>
       <UISEOToolbarForm>SEO を管理</UISEOToolbarForm>
@@ -1330,7 +1330,7 @@
   -->
   <PopupUserSelector>
     <title>
-      <UIUserContainer>権限の選択</UIUserContainer>
+      <UIUserContainer>Permission Selector</UIUserContainer>
     </title>
   </PopupUserSelector>
   <UIPopupTaxonomy>
@@ -1346,6 +1346,8 @@
   -->
   <UIVersionInfo>
     <tooltip>
+      <version>Version</version>
+      <baseVersion>Base Version</baseVersion>
       <addLabel>ラベルの追加</addLabel>
       <removeLable>ラベルの削除</removeLable>
       <restoreVersion>バージョンのリストア</restoreVersion>
